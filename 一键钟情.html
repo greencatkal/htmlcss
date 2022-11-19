@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>一键钟情（有病吧笑死）</title>
+    <style>
+        body{
+            text-align: center;
+            background: url("lover.jpg");
+            background-size: auto;
+            background-position: auto;
+            color: blue;
+            font-family: arial;
+        }
+        p{
+            font-size: large;
+        }
+    </style>
+    <script>
+        function disPlay(){
+            x=document.getElementById("demo");  // 找到元素
+	        x.innerHTML="我喜欢你!";  
+        }
+    </script>
+    <body>
+        <p>点正下方那个！</p>
+        <button type="button" onclick="alert('我喜欢你！')">一键钟情</button>
+        <p id="demo">现在试试下面这个！</p>
+        <button type="button" onclick="disPlay()">处处留情</button>
+    </body>
+</head>
+</html>
